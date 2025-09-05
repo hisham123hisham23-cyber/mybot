@@ -3,7 +3,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 
 # التوكن
-TOKEN = "8463040160:AAFieooZLEDyvCJD-CoSK1_rL0o_2SnQozk"
+TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 6153632775  # ID بتاعك
 
 # قاعدة بيانات الكتب
